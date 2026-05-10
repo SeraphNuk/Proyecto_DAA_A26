@@ -175,7 +175,7 @@ class Grafo:
         valor_inicio=nodo_fuente.obtener_valor()
         costos={nodo.obtener_valor(): float('inf') for nodo in self.obtener_todos_nodos()}
         costos[valor_inicio]=0
-
+        #Creamos la lista de nodos padres para llevar registro de la relación entre nodos
         padres = {nodo.obtener_valor(): None for nodo in self.obtener_todos_nodos()}
 
         visitados=set()
