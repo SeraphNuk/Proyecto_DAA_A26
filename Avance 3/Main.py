@@ -74,11 +74,11 @@ def generar_grafos_Dorogovstev(sizes):
         DorogovstevDijkstra.generar_archivoGRAPH(nombreArbol)
 
 
-#generar_grafos_malla([[10,10],[25,20]])
+generar_grafos_malla([[10,10],[25,20]])
 generar_grafos_ErdosRenyi([[50,215],[500,1050]])
-#generar_grafos_Gilbert([[50,0.10],[500,0.02]])
-#generar_grafos_GeoSimple([[50,0.25],[500,0.15]])
-#generar_grafos_Barabasi([[50,215],[500,1050]])
-#generar_grafos_Dorogovstev([50,500])
+generar_grafos_Gilbert([[50,0.10],[500,0.02]])
+generar_grafos_GeoSimple([[50,0.25],[500,0.15]])
+generar_grafos_Barabasi([[50,215],[500,1050]])
+generar_grafos_Dorogovstev([50,500])
 
 
